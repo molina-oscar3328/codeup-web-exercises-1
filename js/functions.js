@@ -102,17 +102,15 @@ function calculateTip(tipdDecimal, totaaBill){
      * > applyDiscount(45.99, 0.12) // 40.4712
      */
 
-    alert("Welcome to Best Buy!"){
-        const originalPrice = prompt("How much was your product today?");
-        const discounted = .2;\}
-    function calculateDiscount() {
-        return originalPrice * discounted;
-    }
-    function applyDiscount(){
-        return originalPrice - calculateDiscount();
+
+    function applyDiscount(totalPrice, discountPercent){
+        var mathBucket = tatalPrice - (totalPrice * discountPercent);
+        return totalPrice - (totalPrice * discountPercent);
+
     }
 
-    alert("With the discount, your total is: " + applyDiscount());
+
+
 </script>
 
 
