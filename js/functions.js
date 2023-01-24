@@ -73,15 +73,19 @@ function isTwo(number){
     * > calculateTip(0.25, 25.50) // returns 6.375
     * > calculateTip(0.15, 33.42) // returns 5.013
     */
+function calculateTip(tipdDecimal, totaaBill){
+
+    return tipDecimal * totalBill;
     /**
      * TODO:
      * Use prompt and alert in combination with your calculateTip function to
      * prompt the user for the bill total and a percentage they would like to tip,
      * then display the dollar amount they should tip
      */
-    function calculateTip(tipdDecimal, totaaBill){
+    var billTotal = prompt(message: "How much was your bill tonigh?")
 
-        return tipDecimal * totalBill;
+    var tipPercent - prompt(message: "How much would you like to tip in a decimal?");
+    alert("Okay coll - thank you for that information")
 }
     /**
      * TODO:
