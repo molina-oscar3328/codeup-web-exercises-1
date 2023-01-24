@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>external JS</title>
+
 </head>
 <body>
-$END$
+<script>
+  console.log("Hello from external JavaScript");
+   alert("Welcome to my Website!");
+  prompt("What is your favorite color?")
+  alert("Great, blue is my favorite color too!");
+  alert("Hello welcome to Block Buster in a different universe where Netflix has not yet taken us out of business")
+  alert("We have three very good movies that have a 98% rating on rotten tomatoes! These are the Little Mermaid, Brother Bear and Hercules")
+  alert("They each rent out for $3.00 dollars per day.");
+  const rentalPrice = 3.00;
+  var littleMermaidDays = prompt("How many days would you like to rent The Little Mermaid?");
+  var littleMermaidTotal = littleMermaidDays * rentalPrice;
+
+  var brotherBearDays = prompt("How many days would you like to rent Brother Bear?");
+  var brotherBearTotal = brotherBearDays * rentalPrice;
+
+  var herculesDays = prompt("How many days would you like to rent Hercules?");
+  var herculesTotal = herculesDays * rentalPrice;
+
+  var rentalTotal = littleMermaidTotal + brotherBearTotal + herculesTotal;
+  alert("Your total is $" + rentalTotal.toFixed(2) + ". " + "You have rented The Little Mermaid for " + littleMermaidDays + " day(s)." + " Brother Bear for a total of " + brotherBearDays + " day(s)." + " And Hercules for " + herculesDays + " day(s).");
+
+  var googleHoursWorked = prompt("How many hours did you work for Google this week?");
+  var googleHourRate = prompt("What is the hourly rate at Google?");
+  var googleTotalPay = googleHoursWorked * parseFloat(googleHourRate);
+
+  var amazonHoursWorked = prompt("How many hours did work you for Amazon this week?");
+  var amazonHourRate = prompt("What is the hourly rate at Amazon?");
+  var amazonTotalPay = amazonHoursWorked * parseFloat(amazonHourRate);
+
+  var facebookHoursWorked = prompt("How many hours did you work for Facebook this week?");
+  var facebookHourRate = prompt("What is the hourly rate at Facebook?");
+  var facebookTotalPay = facebookHoursWorked * parseFloat(facebookHourRate);
+
+  var weekTotalPay = googleTotalPay + amazonTotalPay + facebookTotalPay;
+  alert("You're total pay for this week combined is $" + weekTotalPay.toFixed(2));
+
+</script>
+
 </body>
 </html>
+
