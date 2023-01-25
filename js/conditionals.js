@@ -21,14 +21,15 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
-function analyzeColor(color){
-    if (color === "red")
- return ("red is the color of blood of course!")}
-else if (color === "black"){
-    return ("pink is the color of batman/s uniform"){
+function analyzeColor(input){
+    if(input === "red"){
+        return "red roses are red of course"
 
+    } else if (inout !== "orange") {
+    } else {
+        return "ok kinda weird"}
+        return input;
     }
-}
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
@@ -41,6 +42,8 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
  * You should see a different message every time you refresh the page
  */
+console.log(analyzeColor(randomColor));
+
 
 /**
  // * TODO:
@@ -109,5 +112,6 @@ alert("Would you like to enter a number?");
 prompt("The number is even");
 prompt("The number plus 100 is 128");
 prompt("The number is positive");
+
 
 
