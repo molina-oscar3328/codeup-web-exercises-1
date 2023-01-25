@@ -78,6 +78,20 @@ console.log(analyzeColor(randomColor));
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+function calculateTotal(luckyNum, totalAmount){
+    if(luckyNum === 0)
+        return totalAmount;{
+            else if (luckyNum === 2);
+        }
+    else if totalAmount - (totalAmount * .10);
+         else if (luckyNum === 2);{
+             else if
+        }
+
+
+    }
+}
+
 
 /**
  * TODO:
@@ -89,6 +103,9 @@ console.log(analyzeColor(randomColor));
  */
 // Generate a random number between 0 and 6
 // var luckyNumber = Math.floor(Math.random() * 6);
+
+
+
 
 /**
  * TODO:
