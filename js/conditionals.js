@@ -131,10 +131,22 @@ alert("I've got good new ");
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
-alert("Would you like to enter a number?");
-prompt("The number is even");
-prompt("The number plus 100 is 128");
-prompt("The number is positive");
+
+var wantsToGiveNumber = confirm("Hello give a number please");
+if(wantsToGiveNumber){
+    alert("happy path will go here")
+    var userName = prompt("nice - what number will it be?");
+    if(typeof userNumber !== "number"){
+        alert("hey that is not a number! - That was mean!")
+    } else {
+        alert("ok - you did give me a number; + userNumber");
+    } var oddEven = userName % 2 === 0;
+    var oddOneHundred = userName + 100;
+    var isPositive = userNumber >= 0;
+    alert("it is " + isPositive + " that your number was positive.");
+}
+
+
 
 
 
