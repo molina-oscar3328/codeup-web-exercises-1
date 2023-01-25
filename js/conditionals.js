@@ -103,6 +103,12 @@ function calculateTotal(luckyNum, totalAmount){
  */
 // Generate a random number between 0 and 6
 // var luckyNumber = Math.floor(Math.random() * 6);
+var totalBill = prompt("hello- how much you pay?");
+
+alert("I've got good new ");
+
+
+
 
 
 
