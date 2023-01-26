@@ -15,15 +15,28 @@
 // ...
 
 
-function oddNumber(input){
-    console.log("This number should be skipped" + input);
-    for (let i = 0; i < 50; i++){
-        if ( i % 2 === 0){
-        }
-        else if ( i !== input){
-            console.log("Here is an odd number!:" + 1);
-        } else {
-            console.log("Ewww skip that number :" + 1);
-        }
-    }
-}
+// function oddNumber(input){
+//     console.log("This number should be skipped" + input);
+//     for (let i = 0; i < 50; i++){
+//         if ( i % 2 === 0){
+//         }
+//         else if ( i !== input){
+//             console.log("Here is an odd number!:" + 1);
+//         } else {
+//             console.log("Ewww skip that number :" + 1);
+//         }
+//     }
+// }
+
+
+// 1
+// 22
+// 333
+// 4444
+// 55555
+// 666666
+// 7777777
+// 88888888
+// 999999999
+
+
