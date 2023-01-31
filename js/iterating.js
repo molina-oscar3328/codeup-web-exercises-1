@@ -59,8 +59,8 @@ for (var i = 0; i < names.length; i++) {
  * Refactor your above code to use a `forEach` loop
  */
 var names = ["bertha", "luis", "erick","sam"];
-names.forEach(function(name){
-    console.log('Here is a lovely name: ' + name + '.');});
+// names.forEach(function(name){
+//     console.log('Here is a lovely name: ' + name + '.');});
     // console.log(`Here is a nice name ${name}.`);});
 
 
@@ -81,3 +81,20 @@ names.forEach(function(name){
  *  > second([1, 2, 3, 4, 5]) // returns 2
  *  > last([1, 2, 3, 4, 5]) // return 5
  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
