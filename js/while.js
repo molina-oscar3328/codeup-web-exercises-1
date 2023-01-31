@@ -20,3 +20,10 @@ do {
 
     }
 } while(cones > 0)
+
+
+// var shapes = ['square', 'circle', 'triangle', 'rectangle'];
+// for (var i = 0; i < shapes.length; i++){
+//     // console.log('The shape at index ' + i + ' is: ' + shapes[i]);
+//     console.log(`The shape at index ${i} is ${shapes[i]}`);
+//     }
