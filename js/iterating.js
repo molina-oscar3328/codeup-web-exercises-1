@@ -28,6 +28,15 @@ var names = ["bertha", "luis", "erick","sam"];{
  * accessing each element's index.
  */
 
+var names = ["bertha", "luis", "erick","sam"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
+
+
+
+
 
 
 
@@ -37,10 +46,27 @@ var names = ["bertha", "luis", "erick","sam"];{
  * array.
  */
 
+var names = ["bertha", "luis", "erick","sam"];
+
+for (var i = 0; i < names.length; i++) {
+    // console.log('The names at index ' + i + ' is: ' + names[i]);
+    console.log(`The names at index ${i} is: ${names[i]}`);
+}
+
+
 /**
  * TODO:
  * Refactor your above code to use a `forEach` loop
  */
+var names = ["bertha", "luis", "erick","sam"];
+names.forEach(function(name){
+    console.log('Here is a lovely name: ' + name + '.');});
+    // console.log(`Here is a nice name ${name}.`);});
+
+
+
+
+
 
 /**
  * TODO:
