@@ -28,16 +28,7 @@ console.log(planetsArray);
      */
 
 
-    // var planets = ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"];
-    // var planetsAsString = planets.join("|");
-    // console.log(planetsAsString);
-    //
-    //
-    // // var listPlanets = "<ul>" + "<li>" + planetsString.split("|") + "</li>" + "</ul>";
-    // var listPlanets = planetsString.split("|");
-    // var brlistPlanets = "<ul>" + "<li>" + listPlanets.join("</li><li>") + "</li>" + "</ul>";
-    // console.log(listPlanets);
-    // console.log(brlistPlanets);
+
 
 
 
