@@ -6,9 +6,9 @@
 //  * 'names'.
 //  */
 //
-// var names = ["bertha", "luis", "erick","sam"];{
-//     console.log(names);
-// }
+var names = ["bertha", "luis", "erick","sam"];{
+    console.log(names);
+}
 //
 //
 // /**
@@ -17,9 +17,9 @@
 //  * array.
 //  */
 //
-// var names = ["bertha", "luis", "erick","sam"];{
-//     console.log(names.length);
-// }
+var names = ["bertha", "luis", "erick","sam"];{
+    console.log(names.length); // <---- this was added
+}
 //
 //
 // /**
@@ -28,11 +28,11 @@
 //  * accessing each element's index.
 //  */
 //
-// var names = ["bertha", "luis", "erick","sam"];
-// console.log(names[0]);
-// console.log(names[1]);
-// console.log(names[2]);
-// console.log(names[3]);
+var names = ["bertha", "luis", "erick","sam"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
 //
 //
 //
@@ -46,22 +46,30 @@
 //  * array.
 //  */
 //
-// var names = ["bertha", "luis", "erick","sam"];
-//
-// for (var i = 0; i < names.length; i++) {
-//     // console.log('The names at index ' + i + ' is: ' + names[i]);
-//     console.log(`The names at index ${i} is: ${names[i]}`);
-// }
+var names = ["bertha", "luis", "erick","sam"];
+
+for (var i = 0; i < names.length; i++) {
+    // console.log('The names at index ' + i + ' is: ' + names[i]);
+    console.log(`The names at index ${i} is: ${names[i]}`);
+}
+
+
+
 //
 //
 // /**
 //  * TODO:
 //  * Refactor your above code to use a `forEach` loop
 //  */
-// var names = ["bertha", "luis", "erick","sam"];
-// names.forEach(function(name){
-//     console.log('Here is a lovely name: ' + name + '.');});
-//     // console.log(`Here is a nice name ${name}.`);});
+var names = ["bertha", "luis", "erick","sam"];
+names.forEach(function(name){
+    // console.log('Here is a lovely name: ' + name + '.');});
+    console.log(`Here is a nice name ${name}.`);});
+
+
+
+
+
 //
 //
 //
@@ -81,49 +89,35 @@
 //  *  > second([1, 2, 3, 4, 5]) // returns 2
 //  *  > last([1, 2, 3, 4, 5]) // return 5
 //  */
-//
-// // var todoList = ['Go to the bank', 'Clean the car', 'Buy a dog'];
-// //
-// // // console.log('My todo list:');
-// // console.log(todoList);
-// // // console.log('Completing the last item: ' + todoList[todoList.length - 1]);
-// // console.log(`Last item complete ${todoList[todoList.length - 1]}`);
-// // var removedItem = todoList.pop();
-// // console.log(`Task complete ${removedItem}`);
-// // console.log(todoList);
-// // console.log(`Complete the first item ${todoList[1]}`);
-// // var doneItem = todoList.shift();
-// // console.log(`Task has been completed at this time ${doneItem}`);
-// // console.log(todoList);
-//
-//
-// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'black'];
-//
-// var index = colors.indexOf('green');
-// console.log(index);
-//
-// index = colors.indexOf('red');
-// console.log(index);
-//
-// index = colors.lastIndexOf('red');
-// console.log(index);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+function first(array){
+    return array[0];
+}
+// first(names);
+
+function second(){
+    return array[1]
+}
+console.log(second(names));
+
+function last(){
+    return array[array.length -1]
+}
+console.log(last.names);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
