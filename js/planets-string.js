@@ -27,7 +27,8 @@ console.log(planetsArray);
      * string, and <li> tags around each planet.
      */
 
-
+var breakString = planetsArray.join("<br>");
+console.log(breakString);
 
 
 
