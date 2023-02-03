@@ -39,7 +39,7 @@
 
     person.sayHello = function() {
         // return "Hello from " + this.firstName + " " + this.lastName + "!";
-        return `Hello from ${this.firstName} ${this.lastName}`;
+        return `Hello from ${this.firstName} ${this.lastName}!`;
     }
          console.log(person.sayHello());
 
@@ -60,26 +60,32 @@
      * and console.log the relevant messages for each person
      */
 
-    var shoppers = [
-        {name: 'Cameron', amount: 180},
-        {name: 'Ryan', amount: 250}, // 12% discount
-        {name: 'George', amount: 320} // 12% discount
-    ];
+
+    // var shoppers = [
+    //     {name: 'Cameron', amount: 180},
+    //     {name: 'Ryan', amount: 250},
+    //     {name: 'George', amount: 320}
+    // ];
+    //
+    // function discountProgram(shoppers){
+    //     shoppers.forEach(function(shopper){
+    //         console.log("the shopper: " + shopper.name + " has spent $" + shopper.amount + "!")
+    //         if(shopper.amount >= 200) {
+    //             console.log("They received a discount of " + (shopper.amount * 0.12) + "and the total amount is $" + (shopper.amount * 0.88).toFixed(2) + "!")
+    //         }
+    //     });
+    // }
+    // discountProgram();
 
 
 
-    function discountChecker(shoppers) {
-        shoppers.forEach(function(shopper) {
-            //console.log(shopper);
-            if (shopper.amount >= 200) {
-                //They get the discount.
-                var discount = (shopper.amount * 0.12).toFixed(2);
-                console.log(shopper.name + " has spent $" + shopper.amount.toFixed(2) + " today. They qualify for a 12% discount of " + discount + ", and therefore have a final total of $" + (shopper.amount - discount) + ".")
-            } else {
-                console.log(shopper.name + ", thank you for shopping with us today. Your final total today is: $" + shopper.amount.toFixed(2));
-            }
-        });
-    }
+
+
+
+
+
+
+
 
 
 
@@ -101,7 +107,60 @@
      * > console.log(books[0].author.lastName) // "Adams"
      */
 
-
+    var books = [
+        {
+            title: "Diary of an Oxygen thieve",
+            author: {
+                firstName: "Johnny",
+                lastName: "John"
+            }
+        },
+        {
+            title: "Chameleon in a Candy Store",
+            author: {
+                firstName: "Hector",
+                lastName: "Theon"
+            }
+        },
+        {
+            title: "Thank you for my service",
+            author: {
+                firstName: "Matt",
+                lastName: "Best",
+                summary: "He describe how deployment was and how coming back to the civilian life was"
+            }
+        },
+        {
+            title: "Good morning Vietnam",
+            author: {
+                firstName: "Mickey",
+                lastName: "Rooney",
+                summary: "This book is all about Vietnam!"
+            }
+        },
+        {
+            title: "How To Draw Circles",
+            author: {
+                firstName: "Ser",
+                lastName: "Circle"
+            }
+        }
+    ];
+        console.log(books[0].title);
+        console.log(books[0].author.firstName);
+        console.log(books[0].author.lastName);
+        console.log(books[1].title);
+        console.log(books[1].author.firstName);
+        console.log(books[1].author.lastName);
+        console.log(books[2].title);
+        console.log(books[2].author.firstName);
+        console.log(books[2].author.lastName);
+        console.log(books[3].title);
+        console.log(books[3].author.firstName);
+        console.log(books[3].author.lastName);
+        console.log(books[4].title);
+        console.log(books[4].author.firstName);
+        console.log(books[4].author.lastName);
 
 
 
@@ -140,6 +199,18 @@
      */
 
 
+books.forEach(function(book,index){
+    console.log("book # " + index);
+    console.log("Title: " + book.title);
+    console.log("Author: " + book.author.firstName + " " + book.author.lastName);
+    })
+
+
+
+
+
+
+
 
 
 
@@ -155,5 +226,4 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
-
-})();
+        })();
