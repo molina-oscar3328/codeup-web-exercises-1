@@ -35,16 +35,14 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
-        // person.sayHello = function() {
-        //     console.log(person.sayHello + person.firstName + " " + person.lastName);
-        // }
+
+
     person.sayHello = function() {
         // return "Hello from " + this.firstName + " " + this.lastName + "!";
         return `Hello from ${this.firstName} ${this.lastName}`;
     }
          console.log(person.sayHello());
 
-    //name of person , amount before the discount , and amount after discount.
 
 
 
@@ -61,17 +59,29 @@
      * represents one shopper. Use a foreach loop to iterate through the array,
      * and console.log the relevant messages for each person
      */
-        // cameron does not spend more than 200 so he doesn't get a discount
-        //ryan spent more than 200 so yes he does get a discount
-        // george does spend more than 200 so yes he does get a discount
+
     var shoppers = [
         {name: 'Cameron', amount: 180},
         {name: 'Ryan', amount: 250}, // 12% discount
         {name: 'George', amount: 320} // 12% discount
-    ]
+    ];
 
-  // shopper.name
-  //   console.log(name);
+
+
+    function discountChecker(shoppers) {
+        shoppers.forEach(function(shopper) {
+            //console.log(shopper);
+            if (shopper.amount >= 200) {
+                //They get the discount.
+                var discount = (shopper.amount * 0.12).toFixed(2);
+                console.log(shopper.name + " has spent $" + shopper.amount.toFixed(2) + " today. They qualify for a 12% discount of " + discount + ", and therefore have a final total of $" + (shopper.amount - discount) + ".")
+            } else {
+                console.log(shopper.name + ", thank you for shopping with us today. Your final total today is: $" + shopper.amount.toFixed(2));
+            }
+        });
+    }
+
+
 
 
 
@@ -90,6 +100,13 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+
+
+
+
+
+
+
 
 
 
