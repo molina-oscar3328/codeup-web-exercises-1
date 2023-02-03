@@ -199,10 +199,11 @@
      */
 
 
-books.forEach(function(book,index){
+books.forEach(function(book,index,array){
     console.log("book # " + index);
     console.log("Title: " + book.title);
-    console.log("Author: " + book.author.firstName + " " + book.author.lastName);
+    // console.log("Author: " + book.author.firstName + " " + book.author.lastName);
+    console.log(`Author: ${book.author.firstName} ${book.author.lastName}`)
     })
 
 
