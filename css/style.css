@@ -8,3 +8,61 @@ comment
     color: green; /* single line comment */
     text-decoration: underline;
 }
+
+h2{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
+h2, h1, h5{
+    font-family: cursive;
+    font-weight: 100;
+    color: darkgoldenrod;
+}
+
+.companyLetters{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+h3 {
+    color: white;
+}
+.quote {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+li, tr{
+    color: white;
+}
+.fancy {
+    text-decoration: underline;
+    text-align: center;
+}
+.bottom{
+    color: white;
+}
+
+ol {
+    list-style: upper-roman;
+}
+ul {
+    list-style: circle;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: goldenrod;
+}
+a:active{
+    color: green;
+}
