@@ -17,6 +17,7 @@ h2, h3 {
 .container {
     margin: 0 auto;
     width: 80%;
+    display: flex
 }
 
 .green-box {
@@ -116,8 +117,9 @@ section:nth-of-type(3) h3 {
 }
 
 section:nth-of-type(5) {
-    height:10px;
-    width: 10px;
+    height: 60px;
+    width: 100px;
+    align-items: center;
     justify-content: space-evenly;
     /* enter needed declarations here */
 }
@@ -126,7 +128,6 @@ section:nth-of-type(5) {
     background: yellow;
     width: 2em;
     height: 2em;
-    justify-content: space-around;
 }
 
 section:nth-of-type(6) {
