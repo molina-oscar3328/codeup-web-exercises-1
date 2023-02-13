@@ -25,7 +25,9 @@ h2, h3 {
     width: 2em;
 }
 
-.border {border: 2px solid black;}
+.border {
+    border: 2px solid black;
+}
 
 .card {
     width: 400px;
@@ -37,15 +39,23 @@ h2, h3 {
 }
 
 section {
+    display: flex;
+    margin-top:1em;
+    margin-bottom:1em;
+    /*justify-content: center;*/
     /* enter needed declarations here */
 }
 
 section:nth-of-type(1) {
     height: 3em;
     background: lightgreen;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
     /* enter needed declarations here */
 }
 section:nth-of-type(1) div:last-child {
+    align-self: flex-start;
     /* enter needed declarations here */
 }
 
@@ -56,10 +66,13 @@ section:nth-of-type(1) div:last-child {
 }
 
 .purple-box:nth-of-type(1) {
+    flex-grow: 5;
+    /*width: 10em;*/
     /* enter needed declarations here */
 }
 
 .purple-box:nth-of-type(2) {
+    flex-grow: 2;
     /* enter needed declarations here */
 }
 
@@ -70,10 +83,14 @@ section:nth-of-type(1) div:last-child {
 }
 
 section:nth-of-type(3) {
+    justify-content: flex-end;
     /* enter needed declarations here */
 }
 
 section:nth-of-type(3) h3 {
+    font-weight: bold;
+    align-items: center;
+    flex-grow: 1;
     /* enter needed declarations here */
 
 }
@@ -90,6 +107,7 @@ section:nth-of-type(3) h3 {
     height: 5em;
     width: 5em;
     background: brown;
+    flex-grow: 1;
     /* enter needed declarations here */
 }
 
@@ -98,6 +116,9 @@ section:nth-of-type(3) h3 {
 }
 
 section:nth-of-type(5) {
+    height:10px;
+    width: 10px;
+    justify-content: space-evenly;
     /* enter needed declarations here */
 }
 
@@ -105,11 +126,15 @@ section:nth-of-type(5) {
     background: yellow;
     width: 2em;
     height: 2em;
+    justify-content: space-around;
 }
 
 section:nth-of-type(6) {
     background: coral;
     height: 14em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     /* enter needed declarations here */
 }
 
@@ -121,4 +146,7 @@ section:nth-of-type(6) {
 
 .grey-box:nth-of-type(odd) {
     height: 4em;
+}
+.midText{
+    align-self: center;
 }
