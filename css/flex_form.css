@@ -38,6 +38,7 @@ body {
     font-size: 20px;
     border-radius: 0;
     outline: 0;
+    -webkit-appearance: none;
 }
 
 .btn-primary {
@@ -51,6 +52,7 @@ body {
 /*flex solution*/
 .cover {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     /* flex container */
@@ -58,9 +60,10 @@ body {
 .flex-form {
     display: flex;
     margin: auto;
+
     /* flex items */
 }
 .destination {
-    flex-basis: 30%;
+    flex-basis: 15em;
     /* bigger item */
 }
