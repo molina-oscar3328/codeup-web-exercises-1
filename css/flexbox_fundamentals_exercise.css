@@ -132,7 +132,7 @@ section:nth-of-type(5) {
 
 section:nth-of-type(6) {
     background: coral;
-    height: 14em;
+    height: 13em;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
