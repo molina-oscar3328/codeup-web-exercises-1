@@ -189,5 +189,10 @@
         display: flex;
         align-content: flex-end;
     }
+    .fa-brands{
+        color: red;
+        background-color: purple;
+        border: 4px;
+    }
 }
 
