@@ -10,12 +10,11 @@
 
 
 
-/*.jumbotron {*/
-/*    margin-top: 10px;*/
-/*    height: 346px;*/
-/*    background-image: url("http://java.codeup.com/examples/bootstrap/pizza.png");*/
-/*    background-size: cover;*/
-/*}*/
+.jumbotron{
+    height: 344px;
+    background-image: url("/img/pizza3.png");
+    background-size: cover;
+}
 h1 {
     display: flex;
     /*align-content: center;*/
