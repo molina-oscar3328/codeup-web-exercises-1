@@ -24,6 +24,10 @@ h1 {
     justify-content: center;
     margin-top: 10px;
 }
+h2{
+    margin-left: 15px;
+    color: red;
+}
 .form-control{
     background-color: darkseagreen;
     width: 150px;
