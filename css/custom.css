@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    border: 8px solid black;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+/*.jumbotron {*/
+/*    margin-top: 10px;*/
+/*    height: 346px;*/
+/*    background-image: url("http://java.codeup.com/examples/bootstrap/pizza.png");*/
+/*    background-size: cover;*/
+/*}*/
+h1 {
+    display: flex;
+    /*align-content: center;*/
+    /*text-align: center;*/
+    font-size: 3em;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-control{
+    background-color: darkseagreen;
+    padding: 2px;
+}
+.btn{
+    background-color: cyan;
+     }
+
