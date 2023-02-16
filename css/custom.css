@@ -3,7 +3,6 @@
     margin: 0px;
 }
 .container {
-    border: 8px solid black;
     display: flex;
     margin-top: 20px;
     padding: 10px;
@@ -27,9 +26,14 @@ h1 {
 }
 .form-control{
     background-color: darkseagreen;
-    padding: 2px;
+    width: 150px;
 }
-.btn{
+.btn {
     background-color: cyan;
-     }
+}
+h5{
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 5px;
+}
 
