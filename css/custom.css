@@ -45,3 +45,10 @@ h5{
 .checkbox {
     margin-left: 10px;
 }
+.card-footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*#one{*/
+/*    margin: 0 0 0 10px;*/
+/*}*/
