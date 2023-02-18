@@ -25,11 +25,21 @@
 
     .container {
         font-size: 12px;
-        border: 2px solid black
+        border: 2px solid blue;
     }
-    p1{
+    p1 {
         font-size: 4em;
         margin-left: 50px;
+        color: blue;
+    }
+    ul {
+        font-size: 3em;
+        margin-left: 115px;
+
+    }
+    p2 {
+        font-size: 4em;
+        margin-bottom: 100px;
     }
 
 
