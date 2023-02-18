@@ -39,7 +39,12 @@
     }
     p2 {
         font-size: 4em;
-        margin-bottom: 100px;
+        margin-left: 50px;
+        color: blue;
     }
+    p3{
+        font-size: 4em;
+    }
+
 
 
