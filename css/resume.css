@@ -15,6 +15,7 @@
         text-align: center;
         margin-top: 10px;
         font-size: 4em;
+        border: 5px solid brown;
     }
 
     .placeHolder {
@@ -25,25 +26,26 @@
 
     .container {
         font-size: 12px;
-        border: 2px solid blue;
+        border: 2px solid green;
     }
-    p1 {
-        font-size: 4em;
-        margin-left: 50px;
-        color: blue;
+    .paOne{
+        border: 3px solid red;
     }
     ul {
         font-size: 3em;
         margin-left: 115px;
+        border: 5px solid pink;
 
     }
-    p2 {
+    .paFive {
         font-size: 4em;
         margin-left: 50px;
         color: blue;
+        border: 3px yellow solid;
     }
-    p3{
+    .paFour{
         font-size: 4em;
+        border: 3px solid purple;
     }
 
 
