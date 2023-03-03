@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+<h1>Coffee!</h1>
+
+<div class="container d-flex m-1" id="main-container">
+  <div class="row d-flex m-auto">
+    <div class="container d-flex col-6 flex-wrap p-0 m-auto" id="coffees"></div>
+
+    <div class="container d-flex flex-direction-column col-6 border border black" id="form-inputs">
+      <form>
+<!--ORIGINAL CODE 1-->
+<!--        <label for="roast-selection">Roast</label>-->
+<!--        <br>-->
+<!--        <select id="roast-selection">-->
+<!--          <option>light</option>-->
+<!--          <option>medium</option>-->
+<!--          <option>dark</option>-->
+<!--        </select>-->
+<!--        <br>-->
+
+<!--        <label for="search-by-name">Coffee Name</label>-->
+<!--        <br>-->
+<!--        <input type="search" id="search-by-name" name="search-by-name">-->
+<!--        <br>-->
+
+<!--        <input id="submit" type="submit">-->
+<!--ORIGINAL CODE 1-->
+<h4>Roast</h4>
+        <select class="dropDown">
+          <!--  <input placeholder="Select type of roast">-->
+          <option selected>all</option>
+          <option value="1">light</option>
+          <option value="2">medium</option>
+          <option value="3">dark</option>
+        </select>
+
+
+    <div class="coffee-name">
+        <h5>Coffee Name</h5>
+    </div>
+<form>
+    <div class="submit">
+<!--        <input type="submit" value="Submit">-->
+        <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </div>
+</form>
+<!--SECOND DROP MENU-->
+<!--        <select class="form-select form-select-sm" aria-label=".form-select-sm example">-->
+<!--          <option selected>Open this select menu</option>-->
+<!--          <option value="1">One</option>-->
+<!--          <option value="2">Two</option>-->
+<!--          <option value="3">Three</option>-->
+<!--        </select>-->
+
+
+
+      </form>
+    </div>
+
+<!--        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">-->
+<!--          &lt;!&ndash;  <input placeholder="Select type of roast">&ndash;&gt;-->
+<!--          <option selected>all</option>-->
+<!--          <option value="1">light</option>-->
+<!--          <option value="2">medium</option>-->
+<!--          <option value="3">dark</option>-->
+<!--        </select>-->
+
+<!--        <select class="form-select form-select-sm" aria-label=".form-select-sm example">-->
+<!--          <option selected>Open this select menu</option>-->
+<!--          <option value="1">One</option>-->
+<!--          <option value="2">Two</option>-->
+<!--          <option value="3">Three</option>-->
+<!--        </select>-->
+<!--        <form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+
+
+
+<!--<form>-->
+<!--  <fieldset disabled>-->
+<!--    <legend>Disabled fieldset example</legend>-->
+<!--    <div class="mb-3">-->
+<!--      <label for="disabledTextInput" class="form-label">Disabled input</label>-->
+<!--      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">-->
+<!--    </div>-->
+<!--    <div class="mb-3">-->
+<!--      <label for="disabledSelect" class="form-label">Disabled select menu</label>-->
+<!--      <select id="disabledSelect" class="form-select">-->
+<!--        <option>Disabled select</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="mb-3">-->
+<!--      <div class="form-check">-->
+<!--        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>-->
+<!--        <label class="form-check-label" for="disabledFieldsetCheck">-->
+<!--          Can't check this-->
+<!--        </label>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--  </fieldset>-->
+<!--</form>-->
+
+<!--two drop down menus-->
+
+
+<!--    <table>-->
+<!--        <thead>-->
+<!--            <tr>-->
+<!--                <th>ID</th>-->
+<!--                <th>NAME</th>-->
+<!--                <th>ROAST</th>-->
+<!--            </tr>-->
+<!--        </thead>-->
+<!--        <tbody id="coffees"></tbody>-->
+<!--    </table>-->
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
