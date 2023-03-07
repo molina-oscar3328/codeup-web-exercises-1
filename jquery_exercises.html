@@ -10,29 +10,34 @@
 
 
 <div class="thisOne">
-<h1>What a nice day</h1>
 
+    <h1 id="day">What a nice day</h1>
 
-<p>Hello today is a beautiful day, it was also a rainy day</p>
+    <p class="header">Hello today is a beautiful day, it was also a rainy day</p>
+    <ul id="daList">
 
+        <li>blue</li>
+        <li>red</li>
+        <li>black</li>
+        <li>orange</li>
 
-
+    </ul>
 
 </div>
-
-
-
-
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossOrigin="anonymous"></script>
 
 
+<script>
 
+    var contents = $('#day').html();
+    alert(contents);
+
+
+
+
+</script>
 
 
 
