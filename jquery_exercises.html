@@ -11,28 +11,23 @@
 
 
 
-
-
-
 </style>
-
-
-
 </head>
+
 <body>
 
 
 
 
 
-<h1 id="heading"></h1>
-
+<h1 id="heading">Hello there how you've been?</h1>
 
 <div class="thisOne">
 
-    <h1 id="day">What a nice day</h1>
+    <h3 id="day">What a nice day</h3>
 
     <p class="header">Hello today is a beautiful day, it was also a rainy day</p>
+
     <ul id="daList">
 
         <li>blue</li>
@@ -50,41 +45,49 @@
 
 <script>
 
+
+
+    $('#heading').click(function() {
+        alert('1 with id "header" was clicked');
+    });
+
+    $("#day").click(function(){
+        alert("Hey it is indeed a good day!");
+    });
+
+    $(".header").click(function(){
+        alert("This makes me want to stay in bed and drink some coffee")
+    });
+
+    $("#daList").click(function(){
+        alert("Hey those are my favorite colors too!! We have so much in common.")
+    });
+
+
+
+//$("h1").hover(
+//    function(){
+//        $(this).css("background-color", "blue");
+//    },
+//    function(){
+//        $(this).css("background-color", "yellow");
+//
+//    }
+//);
+
+
+
+
     // var hello = $('#day').html();
     // alert(hello);
+// $("h1").css("background-color", "red");
+// $("h1").css("color", "blue");
+
 
 
 
 
 </script>
-
-<!--<style>-->
-
-<!--    #daList{-->
-<!--        font-size: 10em;-->
-<!--    }-->
-
-
-
-
-
-<!--</style>-->
-
-
-
-
-
-
-
-
-<!--<script>-->
-
-<!--    $(function() {-->
-<!--        alert( 'The DOM has finished loading!' );-->
-<!--    });-->
-
-<!--</script>-->
-
 
 
 
