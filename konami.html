@@ -7,7 +7,13 @@
 </head>
 <body>
 
-<h1>Konami Code</h1>
+<h1 id="codeup">Konami Code</h1>
+
+
+
+
+
+<h1 id="codeup">Hello Codeup</h1>
 
 
 
@@ -15,10 +21,34 @@
 
 
 
-
-
-
-
+<ul>
+    <li>Linux</li>
+    <li>Apache</li>
+    <li>MySQL</li>
+    <li>PHP</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+    <li>Javascript</li>
+</ul>
 
 
 
@@ -40,10 +70,43 @@
 
 <script>
 
+    // $('#codeup').click(function() {
+    //     var h1Contents = $('#codeup').html();
+    //     alert(h1Contents);
+    // });
 
-$(document).on("keydown", function(e){
+$("#codeup").click(function(){
+    alert($(this).html());
+});
+
+    $('li').each(function(index) {
+        if (index % 2 !== 1) {
+            $(this).css("background-color", "orange");
+        }
+    });
+
+
+
+
+
+    // $('#codeup').click(function() {
+    //     var h1Contents = $('#codeup').html();
+    //     alert(h1Contents);
+    // });
+
+
+
+
+
+
+
+    $(document).on("keydown", function(e){
     console.log("this is a keydown");
 });
+
+
+
+
 
 
 // $(document).keyup(function(e){

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[j] [Q] [u] [e] [r] [y] ~ essential ~ methods</title>
+    <style>
+        * {
+            margin: 0;
+            padding 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+        }
+
+        div {
+            margin: 24px;
+        }
+
+        #footer{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        #footer > ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 100%;
+            margin: 12px;
+        }
+
+        #footer > ul > li {
+            border: 1px dashed red;
+            margin: 24px;
+            padding: 12px;
+        }
+
+
+        .back{
+            font-size: 10px;
+            color: white;
+            background-color: white;
+        }
+
+        .highLight{
+            background-color: yellow;
+        }
+
+        .highLight2{
+            background-color: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>[j] [Q] [u] [e] [r] [y] ~ essential ~ methods</h1>
+
+<main id="content">
+
+    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam at debitis dolorum enim, et explicabo facilis incidunt iste laboriosam molestias odit provident quos recusandae rerum sunt veniam voluptate voluptates!</div>
+    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque commodi delectus dolore doloremque dolores enim, fugiat in incidunt inventore itaque iure natus nesciunt nihil omnis quibusdam quis quod vero.</div>
+
+    <div class="paragraph">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+
+        <span>Culpa dolores ducimus facilis libero nostrum officia sequi voluptates?</span>
+
+        <span>Alias corporis eos ex fugiat, illo minima nostrum officiis porro, possimus quam voluptates.</span>
+    </div>
+
+    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi cum cupiditate debitis ea eligendi excepturi, fugiat id incidunt molestiae nulla quas quos sint velit voluptatem? Facere magnam perferendis similique.</div>
+
+
+</main>
+
+<footer id="footer">
+
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <ul>
+        <li>Stuff</li>
+        <li>Stuff</li>
+    </ul>
+
+
+</footer>
+
+<button id="myBtn">Click to change size and color!</button>
+<br>
+<button id="myBtn2">Click to change back to regular</button>
+
+<!--JQUERY CDN BELOW-->
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<!--CUSTOM JS BELOW-->
+
+
+<script>
+
+
+    $("#myBtn").on("click", function(){
+        $("ul").css({
+            "border": "6px solid red",
+            "color": "red",
+            "font-size": "80px"
+        })
+    })
+
+    $("#myBtn2").on("click", function(){
+        $("ul").css({
+            "border": "2px solid black",
+            "color": "black",
+            "font-size": "14px"
+        })
+    })
+
+
+    // PARAGRAPH COLOR CHANGE \
+
+    $("div").hover(function(){
+        $(this).toggleClass("highLight")
+    },
+
+    function(){
+        $(this).toggleClass("highLight")
+    })
+
+
+
+
+
+
+    // LIST COLOR CHANGE \
+
+    $("ul").hover(function(){
+            $(this).toggleClass("highLight2")
+        },
+
+        function(){
+            $(this).toggleClass("highLight2")
+        })
+
+
+</script>
+</body>
+</html>
