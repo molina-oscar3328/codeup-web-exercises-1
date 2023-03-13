@@ -41,6 +41,8 @@
 
 <!-- Custom JS -->
 <script>
+
+  // a js object named map
   var accessToken = 'pk.eyJ1Ijoib3NjYXItbTMzMjgiLCJhIjoiY2xmMnQxbWZwMGRzMTNybnhxdnhvaHZ1cCJ9.9Adq1mBWKrI7NF2j80Wm9A';
   mapboxgl.accessToken = accessToken;
   var map = new mapboxgl.Map({
@@ -55,6 +57,11 @@
     // logs the address for The Alamo
     console.log(results);
   });
+
+  let myMarket = new mapboxgl.Marker();
+  myMarket.setlngLat([-98.48 ,29.42]);
+  myMarket.addTo(map);
+
 
 </script>
 
