@@ -23,6 +23,12 @@ ul li{
     color: white;
     font-size: 3em;
 }
+.types{
+    /*color: white;*/
+    /*background-color: black;*/
+    font-size: 20em;
+    color: red;
+}
 
 
 
@@ -69,7 +75,7 @@ ul li{
             $(this).css('color', 'white');
         },
         function() {
-            $(this).css('background-color', '#FFF');
+            $(this).css('background-color', 'white');
             $(this).css('color', "black");
         }
     );
@@ -104,6 +110,16 @@ ul li{
     $("p").click(function(){
         $(this).toggleClass("check")
     })
+
+
+    $("h3").click(function(){
+        $(this).toggleClass("types")
+    })
+
+
+
+
+
 
 
     //
