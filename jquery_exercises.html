@@ -65,10 +65,42 @@ ul li{
         }
     );
 
-    var ele = document.getElementById('myOpinion');
-    ele.addEventListener('click', function(e) {
-        alert('My element was clicked!');
-    });
+    $('#list').hover(
+        function() {
+            $(this).css('color', 'red');
+        },
+        function() {
+            $(this).css('color', "black");
+        }
+    );
+
+
+    //
+    // $('.weatherType').click(
+    //     function() {
+    //         $(this).css('background-color', 'red');
+    //         $(this).css('color', 'yellow');
+    //     },
+    //     function() {
+    //         $(this).css('background-color', '#FFF');
+    //         $(this).css('color', "black");
+    //     }
+    // );
+    //
+    //
+    // var ele = document.getElementById('myOpinion');
+    // ele.addEventListener.click(function(){
+    //     css.('background', 'red');
+    // });
+    //
+    // $('#myOpinion').click(
+    //     function() {
+    //         $(this).css('background-color', '#FF0');
+    //     },
+    //     function() {
+    //         $(this).css('background-color', '#FFF');
+    //     }
+    // );
 
 
 
