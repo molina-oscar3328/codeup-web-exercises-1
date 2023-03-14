@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>First Time Using JQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <style>
 
 
@@ -12,6 +13,7 @@
 
 </style>
 </head>
+
 
 <body>
 
@@ -27,64 +29,16 @@
 
 
 
-<h1 id="heading">Hello there how you've been?</h1>
-
-<div class="thisOne">
-
-    <h3 id="day">What a nice day</h3>
-
-    <p class="header">Hello today is a beautiful day, it was also a rainy day</p>
-
-    <ul id="daList">
-
-        <li>blue</li>
-        <li>red</li>
-        <li>black</li>
-        <li>orange</li>
-
-    </ul>
-
-</div>
-
-
-
-
 <script>
-// first exercise
 
-    $(function() {
-        alert( 'The DOM has finished loading!' );
-    });
-
-
-    $('#heading').click(function() {
-        alert('1 with id "header" was clicked');
-    });
-
-    $("#day").click(function(){
-        alert("Hey it is indeed a good day!");
-    });
-
-
-    $("#daList").dblclick(function(e){
-        alert("Hey those are my favorite colors too!! We have so much in common.");
-    });
-
-    $("p").dblclick(
-        function(){
-            $(this).css("font-size", "18px");
-        }
-    );
-
-    $("li").css("font-size", "20px")
-
-
+    window.onload = function() {
+        alert( 'The page has finished loading!' );
+    }
 
 
 </script>
 
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossOrigin="anonymous"></script>
-
+<script src="js/weather-project.js"></script>
 
 </body>
 </html>
