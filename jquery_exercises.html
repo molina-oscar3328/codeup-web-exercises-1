@@ -43,8 +43,9 @@ ul li{
 
 </div>
 
-
-
+<div class="hello">
+<p id="outro">Hello there look at me I am going to change colors WATCH ME!!</p>
+</div>
 
 
 
@@ -53,6 +54,21 @@ ul li{
 
 <script>
 
+    $('#outro').hover(
+        function() {
+            $(this).css('background-color', 'blue');
+            $(this).css('color', 'white');
+        },
+        function() {
+            $(this).css('background-color', '#FFF');
+            $(this).css('color', "black");
+        }
+    );
+
+    var ele = document.getElementById('myOpinion');
+    ele.addEventListener('click', function(e) {
+        alert('My element was clicked!');
+    });
 
 
 
