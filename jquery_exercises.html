@@ -13,7 +13,16 @@ ul li{
     margin-bottom: 1em;
 }
 
+.check{
+    background-color: yellow;
+    font-size: 3em;
+}
 
+.check1{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
 
 
 
@@ -73,6 +82,28 @@ ul li{
             $(this).css('color', "black");
         }
     );
+
+    // $("h1").on("click",
+    //     function() {
+    //         $(this).css("background-color", "black");
+    //         $(this).css("color", "white");
+    // })
+
+    $("h1").click(function(){
+        $(this).toggleClass("check1")
+    })
+
+
+    //
+    // $("p").on("click",
+    //     function() {
+    //         $(this).css("background-color", "black");
+    //         $(this).css("color", "white");
+    //     })
+
+    $("p").click(function(){
+        $(this).toggleClass("check")
+    })
 
 
     //
