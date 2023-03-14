@@ -5,7 +5,13 @@
     <title>First Time Using JQuery</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <style>
-
+#list{
+    /*list-style: none;*/
+    /*margin: 1em;*/
+}
+ul li{
+    margin-bottom: 1em;
+}
 
 
 
@@ -17,9 +23,25 @@
 
 <body>
 
+<h1 id="myOpinion">What is your favorite type of weather?</h1>
 
+<p>My favorite type of weather is when it's cold and rainy</p>
 
+<div class="weatherType">
+    <h3>Types of weather:</h3>
 
+    <ul id="list">
+        <li>rainy</li>
+        <li>sunny</li>
+        <li>foggy</li>
+        <li>windy</li>
+        <li>cloudy</li>
+        <li>stormy</li>
+        <li>snowy</li>
+
+    </ul>
+
+</div>
 
 
 
@@ -31,14 +53,13 @@
 
 <script>
 
-    window.onload = function() {
-        alert( 'The page has finished loading!' );
-    }
+
+
 
 
 </script>
 
-<script src="js/weather-project.js"></script>
+<!--<script src="js/weather-project.js"></script>-->
 
 </body>
 </html>
