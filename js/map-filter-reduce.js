@@ -46,8 +46,7 @@ const users = [
 // console.log(newUsers);
 
     let usersEmail = users.map(function(email){
-    let emails = email.split(' ');
-        return email
+        return users + email
 })
-console.log(emails);
+console.log(usersEmail);
 
