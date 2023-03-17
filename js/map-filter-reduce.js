@@ -37,9 +37,17 @@ const users = [
 
     ];
 
+//     let newUsers = [];
+//     let userLanguages = users.filter(function(user){
+//       if(user.languages.length >= 3){
+//           newUsers.push(users);
+//       }
+//   })
+// console.log(newUsers);
 
-  let languages = users.filter(function(language){
+    let usersEmail = users.map(function(email){
+    let emails = email.split(' ');
+        return email
+})
+console.log(emails);
 
-      return language + user
-  })
-console.log(`Here isv${user} and knows: ${languages}!`);
