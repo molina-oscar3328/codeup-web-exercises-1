@@ -11,12 +11,16 @@
 
 function calculateDiamondPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity").value;
-    var originalPrice = 50000; // Original price of each set of 10 nuggets
+    var originalPrice = 62500; // Original price of each set of 10 nuggets
     var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
     var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = (setQuantity * originalPrice) + (remainingNuggets * (originalPrice / 10)); // Calculate the total purchase price
     document.getElementById("totalAmount").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
+
+
+
+
 
 
 
@@ -31,8 +35,10 @@ function calculateDiamondPurchasePrice() {
 
 function calculateCopperPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity2").value;
-    var originalPrice = 50000; // Original price of each diamond nugget
-    var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
+    var originalPrice = 20000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
+    var purchasePrice = (setQuantity * originalPrice) + (remainingNuggets * (originalPrice / 10)); // Calculate the total purchase price
     document.getElementById("totalAmount2").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
 
@@ -49,7 +55,9 @@ function calculateCopperPurchasePrice() {
 
 function calculateTinPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity3").value;
-    var originalPrice = 50000; // Original price of each diamond nugget
+    var originalPrice = 20000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount3").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -67,7 +75,9 @@ function calculateTinPurchasePrice() {
 
 function calculateCoalPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity4").value;
-    var originalPrice = 75000; // Original price of each diamond nugget
+    var originalPrice = 30000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount4").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -85,7 +95,9 @@ function calculateCoalPurchasePrice() {
 
 function calculateIronPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity5").value;
-    var originalPrice = 100000; // Original price of each diamond nugget
+    var originalPrice = 40000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount5").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -103,7 +115,9 @@ function calculateIronPurchasePrice() {
 
 function calculateSulfurPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity6").value;
-    var originalPrice = 100000; // Original price of each diamond nugget
+    var originalPrice = 40000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount6").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -121,7 +135,9 @@ function calculateSulfurPurchasePrice() {
 
 function calculateSilverPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity7").value;
-    var originalPrice = 187500; // Original price of each diamond nugget
+    var originalPrice = 70000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount7").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -139,7 +155,9 @@ function calculateSilverPurchasePrice() {
 
 function calculateGoldPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity8").value;
-    var originalPrice = 250000; // Original price of each diamond nugget
+    var originalPrice = 100000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount8").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
@@ -157,7 +175,14 @@ function calculateGoldPurchasePrice() {
 
 function calculateAlienPurchasePrice() {
     var nuggetQuantity = document.getElementById("nuggetQuantity9").value;
-    var originalPrice = 3750000; // Original price of each diamond nugget
+    var originalPrice = 149000; // Original price of each diamond nugget
+    var setQuantity = Math.floor(nuggetQuantity / 10); // Calculate the number of sets
+    var remainingNuggets = nuggetQuantity % 10; // Calculate the remaining individual nuggets
     var purchasePrice = originalPrice * 0.8 * nuggetQuantity; // 80% of the original price multiplied by the quantity
     document.getElementById("totalAmount9").textContent = "$" + purchasePrice.toLocaleString('en-US');
 }
+
+
+
+
+
